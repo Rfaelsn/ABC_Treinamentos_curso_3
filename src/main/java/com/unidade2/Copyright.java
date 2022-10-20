@@ -1,5 +1,5 @@
-package com.unidade1;
-
+package com.unidade2;
+//criando propria notação
 public @interface Copyright {
     String autor();
     String data();

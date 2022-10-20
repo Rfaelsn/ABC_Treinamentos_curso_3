@@ -1,4 +1,4 @@
-package com.unidade1;
+package com.unidade2;
 
 public interface Internet {
     /*conectar @deprecated
