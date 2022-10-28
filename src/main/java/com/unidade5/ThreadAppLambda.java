@@ -1,0 +1,12 @@
+package com.unidade5;
+
+public class ThreadAppLambda {
+    public static void main(String[] args) {
+        Runnable r = () ->{
+            for (int i = 1; i <= 1000; i++) {
+                System.out.println(i);
+            }
+        };
+        new Thread(r).start();
+    }
+}
